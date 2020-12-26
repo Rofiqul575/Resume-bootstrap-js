@@ -1,0 +1,116 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: rgb(170, 172, 172);
+            min-height: 100%;
+        }
+        
+        .content {
+            min-height: calc(100vh - 116px - 60px);
+        }
+        
+        .avatar {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .social-icons .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 3.5rem;
+            width: 3.5rem;
+            background-color: #000000;
+            color: #fff;
+            border-radius: 100%;
+            font-size: 1.5rem;
+            margin-right: 1.5rem;
+            margin-top: 50px;
+        }
+        
+        .social-icons .social-icon:hover {
+            background: #17A2B8;
+        }
+        
+        #skills .icon {
+            height: 80px;
+            width: 80px;
+        }
+        
+        #skills .fa-ul {
+            font-size: 20px;
+        }
+        
+        .d-flex .links {
+            align-items: center;
+            color: rgb(0, 0, 0);
+            font-size: 1.5rem;
+            margin-top: 50px;
+            width: 20%;
+        }
+        
+        .fa-play-circle {
+            font-size: 50px;
+        }
+        
+        .links-tube h3 {
+            margin: 0;
+            font-size: 30px;
+        }
+        
+        .links-tube .fa-play-circle:hover {
+            color: #17A2B8;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 60px;
+            background: rgb(46, 199, 238);
+        }
+        
+        .footer p {
+            text-align: center;
+        }
+        
+        @media(max-width: 992px) {
+            .content {
+                min-height: calc(100vh - 56px - 60px);
+                margin-bottom: 20px;
+            }
+            .navbar img {
+                margin-top: 10px;
+            }
+            .navbar-nav {
+                text-align: center;
+                margin: 0 auto;
+            }
+            .navbar-toggler {
+                margin: 0 auto;
+            }
+            .nav-items {
+                display: flex;
+                flex-direction: column;
+            }
+            .d-flex {
+                flex-direction: column;
+            }
+        }
+        
+        @media(max-width: 500px) {
+            #about .subheading {
+                font-size: 30px;
+            }
+            .email {
+                font-size: 20px;
+            }
+            #about .name-heading {
+                font-size: 60px;
+            }
+            .footer p {
+                font-size: small;
+            }
+        }
